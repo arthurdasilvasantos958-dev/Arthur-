@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; /* Mantém o tamanho do elemento mesmo com padding e borda */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    min-height: 100vh; /* Ocupa pelo menos toda a altura da tela */
+}
+.card {
+    width: 350px;
+    background-color: rgba(1, 218, 200, 0.473);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.foto {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+.links {
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    gap: 10px; /* Cria espaço de 10px entre os elementos */
+    margin-top: 20px; /* Cria espaço acima */
+}
+
+.links a {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.links a:hover {
+    background-color: #444;
+}
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.qrcode {
+    width: 180px;
+    height: 180px;
+}

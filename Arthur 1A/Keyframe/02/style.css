@@ -1,0 +1,24 @@
+.caixa {
+    width: 100px;
+    height: 100px;
+    background: cyan;
+    animation: mover 2s;
+}
+
+@keyframes mover {
+
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+ 

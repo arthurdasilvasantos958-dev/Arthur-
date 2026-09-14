@@ -1,0 +1,17 @@
+.caixa {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: mover 2s infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+
+}

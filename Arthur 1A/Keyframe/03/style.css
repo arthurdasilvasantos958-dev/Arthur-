@@ -1,0 +1,21 @@
+.caixa {
+    width: 200px;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+    animation: aparecer 2s;
+}
+
+@keyframes aparecer {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}

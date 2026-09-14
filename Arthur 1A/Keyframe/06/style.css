@@ -1,0 +1,20 @@
+ 
+.caixa {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+
+    animation: girar 2s infinite;
+}
+
+@keyframes girar {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
