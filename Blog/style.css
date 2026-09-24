@@ -1,0 +1,175 @@
+/* ==========================================
+   ESTILOS GERAIS (BODY)
+   ========================================== */
+body {
+    font-family: "Inter", "Arial", sans-serif;
+    background: #fdfcf9;
+    color: #1c1c1c;
+    line-height: 1.6;
+}
+
+/* ==========================================
+   CABEÇALHO E BRANDING
+   ========================================== */
+/* Cabeçalho do site: espaçamento e largura máxima do conteúdo */
+.header {
+    padding: 40px 24px 24px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Nome do blog, com fonte diferente pra se destacar */
+.logo {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 32px;
+}
+
+/* Frase abaixo do nome, em tom mais claro */
+.tagline {
+    color: #5c5c5c;
+    margin-top: 6px;
+}
+
+/* ==========================================
+   FEED DE POSTS
+   ========================================== */
+.feed {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 8px 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ==========================================
+   CARTÃO DE POST (POST CARD)
+   ========================================== */
+.post-card {
+    display: block;
+    text-decoration: none;
+    color: #1c1c1c;
+    border-bottom: 1px solid #e8e4dc;
+    padding-bottom: 24px;
+}
+
+.post-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+/* Título do post dentro do card */
+.post-card h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* Data e autor, em texto pequeno */
+.post-meta {
+    font-size: 13px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   RESUMO E RODAPÉ (CONTINUAÇÃO)
+   ========================================== */
+
+/* Resumo do post */
+.post-resumo {
+    color: #333333;
+}
+
+/* Rodapé do site, com texto centralizado e discreto */
+.footer {
+    text-align: center;
+    padding: 24px;
+    color: #999999;
+    font-size: 14px;
+}
+
+/* Link "voltar para o feed": sem sublinhado, em destaque */
+.voltar {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #b23a48;
+  text-decoration: none;
+  font-weight: 600;
+}
+ 
+/* Container do post: limita a largura do texto pra facilitar a leitura */
+.post-completo {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 8px 24px 64px;
+}
+
+/* Imagem de capa do post, no mesmo esquema de corte do card */
+.post-completo img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 16px 0 24px;
+}
+ 
+/* Título principal do post */
+.post-completo h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+ 
+/* Parágrafos do corpo do texto */
+.post-completo p {
+  margin-bottom: 18px;
+  font-size: 17px;
+  color: #2a2a2a;
+}
+
+/* Coloca os dois botões e os dois contadores em linha,
+   alinhados ao centro e com espaço entre eles */
+.reacoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+/* Regras que os dois botões (curtir e descurtir) têm em comum */
+.botao-curtir,
+.botao-descurtir {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+ 
+/* Curtir: fundo escuro, texto branco (ação "principal") */
+.botao-curtir {
+  background: #1c1c1c;
+  color: #ffffff;
+}
+ 
+/* Descurtir: fundo branco com borda (ação "secundária") */
+.botao-descurtir {
+  background: #ffffff;
+  color: #1c1c1c;
+  border: 1px solid #e8e4dc;
+}
+
+/* Texto pequeno ao lado de cada botão, mostrando o total */
+#contador-curtidas,
+#contador-descurtidas {
+  color: #5c5c5c;
+  font-size: 14px;
+  margin-right: 12px;
+}
+
